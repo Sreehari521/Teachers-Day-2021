@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Teacher's Day</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="main_header">
+        <div class="center_div">
+          <p>Happy Teacher's Day</p>
+        </div>
+        <p class="credit-text">Developed by Sreehari.S</p>
+        <p class="quoet">Teachers are the backbone of any<br> country, The pillar upon which all<br> aspirations are converted into reality. <br> <span class="credit"><span style="color: transparent;">------------------------------------</span>~ APJ</span></p>
+    </div>
+    <canvas id="my-canvas"></canvas>
+
+    <script src="./index.min.js"></script>
+    <script>
+        var confettiElement = document.getElementById('my-canvas');
+        var confettiSettings = { target: confettiElement };
+        var confetti = new ConfettiGenerator(confettiSettings);
+        confetti.render();
+    </script>
+</body>
+</html>
